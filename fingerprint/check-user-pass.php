@@ -36,7 +36,7 @@ if (count($_POST) > 0) {
 //    $row = mysql_fetch_array($result);
 //    if (is_array($row)) {
     $check_result = FALSE;
-    if (($_POST["xx_username"] == "rfq") && ($_POST["xx_password"] == "Rfq@2016")) {
+    if (($_POST["xx_username"] == "material") && ($_POST["xx_password"] == "UpdateMaterial@2016")) {
         $check_result = TRUE;
     }
 
@@ -44,8 +44,8 @@ if (count($_POST) > 0) {
         $_SESSION["user_id"] = '12345';
         $_SESSION["user_name"] = 'abc';
 
-        $_SESSION["active_user"] = "rfq";
-        $_SESSION["active_user_zh"] = "臨時共用帳號";
+        $_SESSION["active_user"] = "material";
+        $_SESSION["active_user_zh"] = "維護欠料信息";
 
 //        echo "PASS";
         header("Location:../portal");
