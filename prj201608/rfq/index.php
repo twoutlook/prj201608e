@@ -54,11 +54,11 @@ if (strlen($active_user) == 0) {
             </div>
             <div style="font-size: 32pt">
                 <ul>
+                    <!--<li>-->
+                    <!--    <a target="_blank" href="machine.php">machine---壓鑄機</a>-->
+                    <!--</li>-->
                     <li>
-                        <a target="_blank" href="machine.php">machine---壓鑄機</a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="material.php">material---欠料 </a>
+                        <a  target="_blank" href="material.php">material---維護欠料信息  </a>
                     </li>
                 </ul>
 
