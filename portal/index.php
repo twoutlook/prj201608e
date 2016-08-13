@@ -55,7 +55,7 @@ if (strlen($active_user) == 0) {
             <div style="font-size: 32pt">
                 <ul>
                     <li>
-                        <a href="../A0707/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark> 版本︰2016-07-07</mark></span>
+                        <a href="../prj201608/">Machine Demands Cloud </a> <span style="font-size: 12pt"> <mark> 版本︰2016-07-07</mark></span>
                     </li>
          
                 </ul>
